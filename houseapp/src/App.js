@@ -7,21 +7,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={"https://images.onlinelabels.com/images/clip-art/Anonymous/Anonymous_Small_House.png"} className="App-logo" alt="logo" />
             <House>
               <Room name="Livingroom">
               </Room>
               <Room name="Kitchen">
               </Room>
+              <Room name="Bathroom">
+              </Room>
             </House>
-        <a
+        {/* <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.homedepot.com/?irgwc=1&cm_mmc=afl-ir-2003851-1420157-EdgeBingFlow&clickid=xCyxYjWz5xyPW5PxQnzRXww1UkH3psVxI2oIx80"
           target="_blank"
           rel="noopener noreferrer"
         >
-          More on home improvement ...
-        </a>
+          Home improvement
+        </a> */}
       </header>
     </div>
   );

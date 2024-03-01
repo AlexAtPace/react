@@ -3,7 +3,7 @@ import '../App.css';
 
 const House = (props) => (
     <div>
-        My house
+        <h1>My Awesome House</h1>
         <div>{props.children}</div>
     </div>
 ) 

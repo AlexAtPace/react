@@ -1,6 +1,35 @@
 .App {
   text-align: center;
 }
+.CountH3{
+  color: blue;
+  padding-bottom: 1px;
+}
+.buttonPlus{
+  background-color: green;
+  margin: 10px;
+  width: 50px;
+  height: 35xpx;
+  border-radius: 8px;
+}
+.buttonMinus{
+  background-color: red;
+  margin: 10px;
+  width: 50px;
+  height: 35xpx;
+  border-radius: 8px;
+  
+}
+.buttonReset{
+  width: 140px;
+  height: 40px;
+  background-color: purple;
+  border-radius: 8px;
+}
+.EntireRoom{
+  border-bottom: 2px solid #000;
+  padding: 15px;
+}
 
 .App-logo {
   height: 40vmin;
@@ -9,7 +38,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite .5s linear;
   }
 }
 
