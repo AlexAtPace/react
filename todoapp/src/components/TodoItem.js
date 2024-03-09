@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class TodoItem extends Component {
 
-  render() {
+  render = () => {
     // Get the id and title attributes of the TodoItem considered
     // Desconstructing todo
     const { id, title } = this.props.todo;

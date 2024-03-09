@@ -3,7 +3,7 @@ import TodoItem from "./TodoItem"; // path
 import AddTodo from "./TodoForm";
 
 class TodoParent extends Component {
-  constructor(props) {
+  constructor(props){
     super(props);
     this.state = {
       todo: [
@@ -72,20 +72,12 @@ class TodoParent extends Component {
     />
   );
 
-  render() {
-    return (
-      <div>
-        {
-          // Run this function once for each item in the todo array
-          this.state.todo.map(this.makeOneTodoItem)
-        }
-        {
-          // Notice how AddTodo is used 
-        }
-        <AddTodo addTodoItem={this.addTodo} />
-      </div>
-    );
-  }
+  render = () => (
+    <div>
+      {this.state.todo.map(this.makeOneTodoItem)}
+      <AddTodo addTodoItem={this.addTodo} />
+    </div>
+  );
 }
 
 export default TodoParent;

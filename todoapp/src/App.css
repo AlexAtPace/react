@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.LottieStuff{
+  text-align: center;
+  color: red;
+}
 
 .App-logo {
   height: 40vmin;

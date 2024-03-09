@@ -7,7 +7,7 @@ class TodoForm extends Component {
     this.input = React.createRef();
   }
 
-  render() {
+  render = () => {
     return (
       <div>
         <input type="text" placeholder="Enter a task" ref={this.input} />
